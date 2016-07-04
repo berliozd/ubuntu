@@ -151,18 +151,18 @@ installPlay2 () {
 addToPath () {
   echo "***addToPath*** Adding apps to PATH" 1>&2
 
-  echo "export PATH=/opt/VSCode:$PATH" >> ~/.bashrc
-  echo "export PATH=/opt/idea:$PATH" >> ~/.bashrc
+#  echo "export PATH=/opt/VSCode:$PATH" >> ~/.bashrc
+#  echo "export PATH=/opt/idea:$PATH" >> ~/.bashrc
   echo "export PATH=/opt/sts:$PATH" >> ~/.bashrc
-  echo "export PATH=/opt/cassandra/bin:$PATH" >> ~/.bashrc
+#  echo "export PATH=/opt/cassandra/bin:$PATH" >> ~/.bashrc
   echo "export PATH=/opt/devcenter/bin:$PATH" >> ~/.bashrc
   echo "export PATH=/opt/tomcat/bin:$PATH" >> ~/.bashrc
   echo "export PATH=/opt/maven/bin:$PATH" >> ~/.bashrc
-  echo "export PATH=/opt/activator:$PATH" >> ~/.bashrc
+#  echo "export PATH=/opt/activator:$PATH" >> ~/.bashrc
 
-  echo "export NPM_PACKAGES=${HOME}/.npm-global-pkg" >> ~/.bashrc
-  echo "export NODE_PATH=$NPM_PACKAGES/lib/node_modules:$NODE_PATH" >> ~/.bashrc
-  echo "export PATH=$NPM_PACKAGES/bin:$PATH" >> ~/.bashrc
+#  echo "export NPM_PACKAGES=${HOME}/.npm-global-pkg" >> ~/.bashrc
+#  echo "export NODE_PATH=$NPM_PACKAGES/lib/node_modules:$NODE_PATH" >> ~/.bashrc
+#  echo "export PATH=$NPM_PACKAGES/bin:$PATH" >> ~/.bashrc
 
   echo "***addToPath*** done" 1>&2
 }

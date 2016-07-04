@@ -1,1 +1,11 @@
 .vagrant
+Supprimerait .idea/.name
+Supprimerait .idea/copyright/
+Supprimerait .idea/encodings.xml
+Supprimerait .idea/inspectionProfiles/
+Supprimerait .idea/magicento/
+Supprimerait .idea/misc.xml
+Supprimerait .idea/modules.xml
+Supprimerait .idea/ubuntu.iml
+Supprimerait .idea/vcs.xml
+Supprimerait .idea/workspace.xml

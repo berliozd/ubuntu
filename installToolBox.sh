@@ -9,31 +9,32 @@ if [ ! -d "$DIR" ]; then DIR="$PWD"; fi
 . "$DIR/installDevTools.sh"
 
 # Installing System Tools
-addRepository
-configureTime
-installCommonPackages
-installNodejs
-installDocker
-installCassandra
-installMongoDb
-installChrome
-installAtom
-installSublime
-installSlack
-installEvernote
-installMkUsb
-installUnitTweak
+#addRepository
+#configureTime
+#installCommonPackages
+#installNodejs
+#installDocker
+#installCassandra
+#installMongoDb
+#installChrome
+#installAtom
+#installSublime
+#installSlack
+#installEvernote
+#installMkUsb
+#installUnitTweak
 
 # Installing Dev Tools
-createAppsDir
-installCassandra
+#createAppsDir
+#installCassandra
 #installCassandraAdmin
 installMaven
 installTomcat
 #installVSCode
 installDevCenter
 #installNetbeans
-installIdea
-installEclipse
+installSts
+#installIdea
+#installEclipse
 addToPath
 changeAppsRights

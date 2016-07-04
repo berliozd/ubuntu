@@ -21,3 +21,21 @@ if [ -x /usr/bin/dircolors ]; then
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
 fi
+
+
+# commons
+alias cddev='cd /src'
+
+# git
+alias gbp='gulp build --production'
+alias gprm='git pr origin master'
+alias gs='git stash'
+alias gsp='git stash pop'
+alias master='git co master'
+
+# xclip
+alias setclip='xclip -selection c'
+alias getclip='xclip -selection clipboard -o'
+
+
+
